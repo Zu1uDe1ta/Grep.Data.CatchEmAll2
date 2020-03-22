@@ -1,37 +1,62 @@
 # Part 1
-### a)
+
+### a) In the answers file, found in the greps directory, show the grep statement you used to catch each pokemon and save to a txt file, in the format `[pokemon name].txt`
 
 
+filescan_00.1
+beddrill: grep -r -p "ri" forest
+blastoise: grep -r -p "blas" forest
+bulbasaur: grep -r -p "bulb" forest
+butterfree: grep -r -p "butt" forest
+
+filescan_00.2
+charizard: grep -r -p "lizard" forest
+charmander: grep -r -p "mander" forest
+charmeleon: grep -r -p "melon" forest
+
+filescan_00.3
+ivysaur: grep -r -p "ivy" forest
+jigglypuff: grep -r -p "puff" forest
+meowth: grep -r -p "meow" forest
+
+filescan_00.4
+psyduck: grep -r -p "psyd" forest
+squirtle: grep -r -p "squi" forest
+venusaur: grep -r -p "venu" forest
+wartortle: grep -r -p "wart" forest
+
+### b) Save the each pokemon as a separate `.txt` file in the `captured` directory.
+COMPLETE
 
 
-### b)
-
-
-
-### c)
-
-
-
-
-
-
-
-
-
-
-
+### c) In which section of the forest (which scan file) did you find each pokemon?
+filescan_00.1
+beedrill
+blastoise
+bulbasaur
+butterfree
+filescan_00.2
+charizard
+charmander
+charmeleon
+filescan_00.3
+ivysaur
+jigglypuff
+meowth
+filescan_00.4
+psyduck
+squirtle
+venusaur
+wartortle
 
 
 # Part 2
-### a)
+
+### a) How many pokemon are there? Show your grep that you used to get to that number.
 
 
-
-
-
-
-### b)
-
+### b) Who are the three biggest pokemon? (number of lines)
+  Show the grep that you used to get to the result.
 
 
 
